@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .infoBox {
+    max-width: 10%;
+    font-size: 11pt;
+    vertical-align: text-top;
+  } 

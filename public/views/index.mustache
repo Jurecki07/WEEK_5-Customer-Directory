@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="./main.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <p>{{#users}}</p>
+        <p>{{username}}</p>
+        <img src={{avatar}}>
+        <!-- <a href ="/{{id}}" id = "name"> {{name}} <a/> <a>{{#job}}</a> -->
+        <p>{{email}}</p>
+        <p>{{university}}</p>
+        <p>{{job}}</p>
+        <p> {{company}}</p>
+        <p> {{skills}}</p>
+        <p> {{phone}}</p>
+        <p>{{address}}</p>
+        <p>{{street_num}}</p>
+        
+
+        {{/users}} 
+        {{^users}}
+        <h1>No users</h1>
+        {{/users}}
+    </div>
+</body>
+
+</html>
