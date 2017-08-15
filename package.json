@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jurecki07/WEEK_5-Customer-Directory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jurecki07/WEEK_5-Customer-Directory/issues"
+  },
+  "homepage": "https://github.com/Jurecki07/WEEK_5-Customer-Directory#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mustache-express": "^1.2.5",
+    "nodemon": "^1.11.0"
+  }
+}

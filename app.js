@@ -10,6 +10,7 @@ app.set('views', './views')
 app.set('view engine', 'mustache');
 
 app.get("/data.js", function (request, response){
+   var data = []
 
 });
 
